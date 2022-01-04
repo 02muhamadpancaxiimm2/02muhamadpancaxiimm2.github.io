@@ -1,0 +1,109 @@
+body {
+ font-family: "Aventury Next";
+}
+
+/* Gunakan property list-style untuk menghilangkan bullet dari tag <li> */
+li {
+  list-style: none;
+}
+
+/* Gantikan background-color header ke #f7f2b4, dan height ke 90px */
+.header {
+  background-color: blue;
+  height: 90px;
+  color: white;
+}
+/* Gantikan font-size milik header-logo ke 36px, dan property float ke left */
+.header-logo1{
+  font-size: 36px;
+  float: left;
+  padding: 20px 40px;
+  color: red;
+}
+.header-logo2{
+  font-size: 36px;
+  float: right;
+  padding: 20px 40px;
+  color: #FFD700;
+}
+.header-list li {
+  float: left;
+  padding: 33px 20px;
+  font-size: 20px
+}
+/* Gantikan background-color main ke #bdf7f1, dan height ke 600px */
+.main {
+  padding: 100px 80px;
+  background-image: url("https://i.pinimg.com/originals/40/c8/d0/40c8d0aae2e44cea260a2f085f883bfc.jpg");
+} 
+.copy-container h1 {
+  font-size: 140px;
+}
+.copy-container h2 {
+  font-size: 60px;
+}
+.copy-container span {
+  color: #ff4a4a;
+}  
+.contents {
+  height: 500px;
+  margin-top: 100px;
+}
+.section-title {
+  border-bottom: 2px solid #dee7ec;
+  font-size: 28px;
+  padding-bottom: 15px;
+  margin-bottom: 50px;
+}
+.contents-item {
+  float: left;
+  margin-right: 30px;
+}
+.contents-item p{
+  font-size: 24px;
+  margin-top: 30px;
+}
+.contents-item img {
+  border: 6px;
+  border-width: 10px;
+  border-style: double;
+  border-radius: 20px;
+  border-color: #00008B;
+}
+/* Gantikan property padding-top milik contact-form to 100px */
+.contact-form {
+ padding-top: 100px;
+}
+input, textarea {
+ margin-top: 4px;
+ margin-bottom: 30px;
+ padding: 20px;
+ font-size: 18px;
+ border: 1px solid #00008B;
+}
+
+/* Gantikan background-color footer ke #ceccf3, dan height ke 270px */
+.footer {
+  background-color: #2f5167;
+  color: #fff;
+  height: 120px;
+  padding: 40px;
+}
+/* Gantikan font-size dan property float footer-logo */
+.footer-logo {
+ font-size: 32px;
+ float: left;
+}
+.footer-paragraf {
+  text-align: center;
+  padding-top: 115px;
+  color: gold;
+}
+/* Gantikan float property footer-list */
+.footer-list {
+  float: right;
+}
+/* Tambahkan CSS untuk tag <li> kedalam footer-list */
+.footer-list li{
+ padding-bottom: 20px;
+}
